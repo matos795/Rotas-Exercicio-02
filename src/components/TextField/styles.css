@@ -1,0 +1,12 @@
+.rt-text-field {
+    background-color: var(--bg-text-field-color);
+    border-radius: 6px;
+    padding: 20px;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+.rt-text-field p {
+    color: var(--font-text-field-color);
+    font-weight: 700;
+}

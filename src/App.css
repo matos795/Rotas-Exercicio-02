@@ -5,6 +5,9 @@
   --bg-header-collor: #FF2323;
   --font-header-collor: #FFFFFF;
 
+  --bg-text-field-color: #FFFFFF;
+  --font-text-field-color: #6F6F6F;
+
   --bg-primary-color: #DADADA;
 }
 
@@ -28,4 +31,8 @@ html, body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+}
+
+main {
+    padding: 30px 40px;
 }
