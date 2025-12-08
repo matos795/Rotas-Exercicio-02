@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
 import Button from "../../../components/Button";
 import TextField from "../../../components/TextField";
 
 export default function HomeIndex() {
-    return(
+    return (
         <>
             <main>
-                <TextField text="Página inicial"/>
-                <Button text="Ver promoção" />
+                <TextField text="Página inicial" />
+                <Link to='/promocao'>
+                    <Button text="Ver promoção" />
+                </Link>
             </main>
         </>
     );

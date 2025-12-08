@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom';
 import './styles.css'
 
 export default function Header() {
     return(
         <header>
             <nav className='rt-container'>
-                <h2>MeuSite</h2>
+                <Link to='/'>
+                    <h2>MeuSite</h2>
+                </Link>
             </nav>
         </header>
     );
