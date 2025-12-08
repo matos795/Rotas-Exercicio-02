@@ -1,3 +1,4 @@
+import Button from "../../../components/Button";
 import TextField from "../../../components/TextField";
 
 export default function HomeIndex() {
@@ -5,6 +6,7 @@ export default function HomeIndex() {
         <>
             <main>
                 <TextField text="Página inicial"/>
+                <Button text="Ver promoção" />
             </main>
         </>
     );
