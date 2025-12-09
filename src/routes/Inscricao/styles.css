@@ -1,0 +1,7 @@
+h1 {
+    color: var(--font-text-field-color);
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    padding: 10px 0 40px;
+}
