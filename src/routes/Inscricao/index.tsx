@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/Button";
 import TextField from "../../components/TextField";
 import './styles.css'
@@ -10,7 +11,9 @@ export default function Inscricao() {
                     <h1>Faça sua inscrição!</h1>                 
                     <TextField text='Página de inscrição' />
                     <div className='dflex'>
-                        <Button text='Ver promoção' />
+                        <Link to='/promocao'>
+                            <Button text='Ver promoção' />                
+                        </Link>
                     </div>
                 </div>
             </main>

@@ -10,7 +10,7 @@ export default function HomeIndex() {
                     <TextField text="Página inicial" />
                     <div className="dflex">
                         <Link to='/promocao'>
-                                <Button text="Ver promoção" />
+                            <Button text="Ver promoção" />
                         </Link>
                     </div>
                 </div>
