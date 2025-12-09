@@ -5,8 +5,12 @@ export default function Promocao() {
     return(
         <>
             <main>
-                <TextField text='Página de promoção' />
-                <Button text='Quero participar' />
+                <div className='rt-container'>
+                    <TextField text='Página de promoção' />
+                    <div className='dflex'>
+                        <Button text='Quero participar' />
+                    </div>
+                </div>
             </main>
         </>
     );
